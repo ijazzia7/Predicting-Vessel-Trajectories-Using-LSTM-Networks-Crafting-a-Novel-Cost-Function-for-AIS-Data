@@ -1,6 +1,6 @@
 # Vessel Trajectory Prediction Using AIS Data with LSTM
 
-![Alt text](images/Picture 1 2.png)
+<img src="images/Picture 1 2.png" width="500"/>
 
 ## Project Overview
 
