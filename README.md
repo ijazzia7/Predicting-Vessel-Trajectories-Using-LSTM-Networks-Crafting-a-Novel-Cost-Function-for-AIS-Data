@@ -40,6 +40,8 @@ The dataset consists of AIS records collected from a Danish port and includes:
 
 Original AIS timestamps were irregular, ranging from seconds to several seconds apart.
 
+<img src="images/Screenshot 2026-01-13 at 8.32.00 PM.png" width="500"/>
+
 ## Data Preprocessing
 
 AIS data is inherently noisy and inconsistent. Extensive preprocessing was applied to make the dataset suitable for sequence-based learning.
@@ -75,7 +77,7 @@ This combination allows the model to learn both spatial movement patterns and co
 
 The predictive model is based on an LSTM architecture designed for sequential AIS data.
 
-![Alt text](images/Picture 332.png)
+<img src="images/Picture 332.png" width="500"/>
 
 ### Architecture highlights
 
@@ -108,7 +110,7 @@ Combine standard Mean Squared Error with a distance-based penalty
 - Model is trained using backpropagation with gradient stabilization
 - Periodic evaluation is performed on validation data to monitor generalization
 
-![Alt text](images/images/Screenshot 2026-01-13 at 8.16.55 PM.png)
+<img src="images/Screenshot 2026-01-13 at 8.16.55 PM.png" width="500"/>
 
 ## Evaluation Metrics
 
@@ -120,7 +122,7 @@ Model performance is evaluated using:
 
 Both quantitative and qualitative evaluations are used to assess prediction accuracy.
 
-![Alt text](images/images/images/Screenshot 2026-01-13 at 8.32.00 PM.png)
+<img src="images/Screenshot 2026-01-13 at 8.32.00 PM.png" width="500"/>
 
 ## Results
 
