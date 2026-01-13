@@ -104,7 +104,7 @@ Combine standard Mean Squared Error with a distance-based penalty
 - Model is trained using backpropagation with gradient stabilization
 - Periodic evaluation is performed on validation data to monitor generalization
 
-Evaluation Metrics
+## Evaluation Metrics
 
 Model performance is evaluated using:
 
