@@ -1,5 +1,7 @@
 # Vessel Trajectory Prediction Using AIS Data with LSTM
 
+![Alt text](images/Picture 1 2.png)
+
 ## Project Overview
 
 This project focuses on predicting future ship trajectories using Automatic Identification System (AIS) data. AIS provides real-time information about vessel position, speed, course, and navigational status, making it a critical component of modern maritime navigation. However, accurately forecasting future vessel movement remains challenging due to environmental dynamics, irregular sampling, and complex ship behaviors.
@@ -73,6 +75,8 @@ This combination allows the model to learn both spatial movement patterns and co
 
 The predictive model is based on an LSTM architecture designed for sequential AIS data.
 
+![Alt text](images/Picture 332.png)
+
 ### Architecture highlights
 
 - LSTM layer to capture long-term temporal dependencies
@@ -104,6 +108,8 @@ Combine standard Mean Squared Error with a distance-based penalty
 - Model is trained using backpropagation with gradient stabilization
 - Periodic evaluation is performed on validation data to monitor generalization
 
+![Alt text](images/images/Screenshot 2026-01-13 at 8.16.55 PM.png)
+
 ## Evaluation Metrics
 
 Model performance is evaluated using:
@@ -113,6 +119,8 @@ Model performance is evaluated using:
 - Trajectory visualizations comparing predicted and actual paths
 
 Both quantitative and qualitative evaluations are used to assess prediction accuracy.
+
+![Alt text](images/images/images/Screenshot 2026-01-13 at 8.32.00 PM.png)
 
 ## Results
 
